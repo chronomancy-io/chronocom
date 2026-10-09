@@ -1,0 +1,18 @@
+# Auto line endings
+* text=auto
+
+# Force LF for source files
+*.md text eol=lf
+*.txt text eol=lf
+*.uc text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+*.ini text eol=lf
+
+# Binary files
+*.upk binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

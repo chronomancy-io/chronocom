@@ -1,0 +1,25 @@
+; Item and ability template names. The game reads template strings from
+; XComGame.int (every vanilla template section, Firaxis DLC included, is
+; there), so they cannot live in ChronoCOM.int with the class strings.
+
+[ChronoCommsJammer X2GrenadeTemplate]
+FriendlyName="Comms Jammer"
+FriendlyNamePlural="Comms Jammers"
+BriefSummary="Cuts the aliens in its radius off from the hive until your next turn: they cannot be told where your squad is, and what they see does not reach the other aliens."
+TacticalText="Jams every enemy in the radius until the start of your next turn. A jammed alien knows only what it sees, and its sightings do not reach the hive."
+ThrownAbilityName="Throw Jammer"
+LaunchedAbilityName="Launch Jammer"
+
+[ChronoStrikeUplink X2WeaponTemplate]
+FriendlyName="Laser Designator (retired)"
+FriendlyNamePlural="Laser Designators (retired)"
+BriefSummary="Retired. Removed from the campaign the next time it is loaded at the Avenger."
+
+; Vanilla's EMP grenade and EMP Bomb also jam the hive's comms (ChronoCOM)
+[EMPGrenade X2GrenadeTemplate]
+BriefSummary="EMP Grenades wreak havoc on the delicate electronic systems in mechanical and robotic enemies, dealing considerable damage and potentially rendering them inoperable for a short period of time. The pulse also jams every enemy it reaches, organic or not, until your next turn: they cannot be told where your squad is, and what they see does not reach the other aliens."
+TacticalText="<Bullet/> EMP grenades ignore armor when dealing damage.<br><Bullet/> EMP grenades can be thrown or launched considerably further than standard grenades.<br><Bullet/> Jams every enemy in the radius until the start of your next turn: it cannot be told where your squad is, and its sightings do not reach the hive."
+
+[EMPGrenadeMk2 X2GrenadeTemplate]
+BriefSummary="The upgraded EMP Bomb deals a massive amount of damage to robotic and mechanical targets. Even those that survive the initial damage can be temporarily shut down and unable to function. The pulse also jams every enemy it reaches, organic or not, until your next turn."
+TacticalText="<Bullet/> EMP Bombs, upgraded from EMP Grenades, deal even greater damage in a greater radius to mechanical enemies.<br><Bullet/> EMP Bombs ignore armor when dealing damage.<br><Bullet/> EMP Bombs can be thrown or launched considerably further than standard grenades.<br><Bullet/> Jams every enemy in the radius until the start of your next turn: it cannot be told where your squad is, and its sightings do not reach the hive."

@@ -1,0 +1,4 @@
+// ChronoCOM macros, appended to Globals.uci by X2ModBuildCommon
+
+// Condition for per-call debug logging: `log("...", `CHRONO_VERBOSE);
+`define CHRONO_VERBOSE class'X2ChronoConfig'.default.bVerboseLogging

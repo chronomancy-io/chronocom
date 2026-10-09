@@ -1,0 +1,21 @@
+{
+  "name": "chronocom",
+  "version": "1.0.0",
+  "description": "An AI overhaul for XCOM 2: War of the Chosen. The aliens fight as a hivemind; combat values stay vanilla.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chronomancy-io/chronocom.git"
+  },
+  "author": "the-chronomancer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chronomancy-io/chronocom/issues"
+  },
+  "homepage": "https://github.com/chronomancy-io/chronocom#readme",
+  "devDependencies": {
+    "@commitlint/cli": "20.1.0",
+    "@commitlint/config-conventional": "20.0.0"
+  }
+}
+

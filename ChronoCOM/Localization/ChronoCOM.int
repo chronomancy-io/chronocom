@@ -1,0 +1,20 @@
+; Class-level strings of the ChronoCOM script package. The game looks up a
+; localized variable in <package>.int under [<class name>], as the game's own
+; DLC packages do (DLC_2.int), so these do not belong in XComGame.int.
+
+; Flyover on a pod member the squad can see, on the turn its pod starts to
+; fall back, hold or assault
+[X2PodCoordinator_Optimized]
+FallBackFlyover="Falling Back"
+HoldFlyover="Holding Position"
+AssaultFlyover="Assaulting"
+
+; Flyover on the soldier the hive's fire is focused on, when it is chosen
+[X2ChronoFirePlan]
+HuntedFlyover="Hunted"
+
+; Retired squad items (X2Item_ChronoSupport) and the EMP jam (X2Ability_ChronoSupport)
+[X2Ability_ChronoSupport]
+JammedName="Jammed"
+JammedDesc="Cut off from the hive: this alien cannot be told where the squad is, and what it sees does not reach the others."
+

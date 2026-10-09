@@ -1,0 +1,27 @@
+schema_version: "1.0.0"
+repository:
+  name: "chronocom"
+  type: "application"
+  language: "UnrealScript"
+  cde_compliant: true
+  mss_version: "1.0.0"
+  wasp_version: "1.0.0"
+
+editorconfig:
+  path: ".editorconfig"
+  authoritative: true
+
+standards:
+  ci_workflow: ".github/workflows/ci.yml"
+  license: "Apache-2.0"
+  code_style: "UnrealScript conventions"
+  documentation: "README.md + inline comments"
+
+build:
+  primary_command: "powershell -NoProfile -ExecutionPolicy Bypass -File .scripts/build.ps1"
+  test_command: "echo 'No automated tests'"
+
+quality:
+  linting: false
+  security_scan: false
+  coverage_target: null
